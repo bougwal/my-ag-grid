@@ -1,18 +1,29 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import 'ag-grid-enterprise'
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http'
+import { NgModule } from '@angular/core'
+import { BrowserModule } from '@angular/platform-browser'
+import { AgGridModule } from 'ag-grid-angular'
+
+import { AppComponent } from './app.component'
+import { CustomPanelComponent } from './components/custom-panel/custom-panel.component'
+import { ImageCellComponent } from './components/image-cell/image-cell.component'
+import { MainViewComponent } from './components/main-view/main-view.component'
+import { CustomDatePipe } from './pipes/custom-date.pipe'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ImageCellComponent,
+    MainViewComponent,
+    CustomPanelComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule,
+    AgGridModule.withComponents([ImageCellComponent]),
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [CustomDatePipe],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

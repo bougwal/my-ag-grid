@@ -1,0 +1,9 @@
+<div class="container">
+  <ag-grid-angular style="width: 90%; height: 500px;" class="ag-theme-alpine"
+    [modules]="modules" [rowData]="rowData" [columnDefs]="columnDefs"
+    [defaultColDef]="defaultColDef" [frameworkComponents]="frameworkComponents"
+    [sideBar]="sideBar" (rowSelected)="onRowSelected($event)"
+    [getContextMenuItems]="getContextMenuItems" [suppressRowClickSelection]="true"
+    [rowSelection]="rowSelection">
+  </ag-grid-angular>
+</div>

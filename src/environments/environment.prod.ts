@@ -1,3 +1,5 @@
+import { baseUrl } from '../../config.json'
 export const environment = {
-  production: true
-};
+  production: false,
+  baseUrl: baseUrl,
+}
