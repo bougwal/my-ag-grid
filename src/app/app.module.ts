@@ -9,7 +9,8 @@ import { AppComponent } from './app.component'
 import { CustomPanelComponent } from './components/custom-panel/custom-panel.component'
 import { ImageCellComponent } from './components/image-cell/image-cell.component'
 import { MainViewComponent } from './components/main-view/main-view.component'
-import { CustomDatePipe } from './pipes/custom-date.pipe'
+import { CustomDatePipe } from './shared/pipes/custom-date.pipe'
+import { MissionService } from './shared/services/mission/mission.service'
 
 @NgModule({
   declarations: [
@@ -23,7 +24,7 @@ import { CustomDatePipe } from './pipes/custom-date.pipe'
     HttpClientModule,
     AgGridModule.withComponents([ImageCellComponent]),
   ],
-  providers: [CustomDatePipe],
+  providers: [CustomDatePipe, MissionService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

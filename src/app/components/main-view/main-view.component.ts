@@ -1,9 +1,9 @@
 import { AllCommunityModules } from '@ag-grid-community/all-modules'
-import { Component, OnInit, Self, ViewChild } from '@angular/core'
+import { Component, Self, ViewChild } from '@angular/core'
 import { AgGridAngular } from 'ag-grid-angular'
-import { CustomDatePipe } from 'src/app/pipes/custom-date.pipe'
-import { HttpService } from 'src/app/services/http.service'
-import { MissionService } from 'src/app/services/mission.service'
+import { CustomDatePipe } from '../../shared/pipes/custom-date.pipe'
+import { HttpService } from '../../shared/services/http/http.service'
+import { MissionService } from '../../shared/services/mission/mission.service'
 
 import { CustomPanelComponent } from '../custom-panel/custom-panel.component'
 import { ImageCellComponent } from '../image-cell/image-cell.component'

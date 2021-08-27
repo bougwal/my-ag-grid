@@ -1,6 +1,6 @@
 import { IToolPanelParams } from '@ag-grid-community/all-modules'
 import { Component } from '@angular/core'
-import { MissionService } from 'src/app/services/mission.service'
+import { MissionService } from '../../shared/services/mission/mission.service'
 
 @Component({
   selector: 'app-custom-panel',

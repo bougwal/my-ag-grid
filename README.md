@@ -1,27 +1,7 @@
-# MyAgGrid
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
+|<img src="https://www.tic-nova.com/wp-content/uploads/2020/04/angular-10.png" alt="drawing" width="250" height="150"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHTFbqBoB3OeCk5OeUQQat39WU0l80UM-PKGlM4J2FjSvK-LH8ZuNo1hdGnJPvF0KKrGM&usqp=CAU" alt="drawing" width="150" height="130"/>
+| <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="drawing" width="100" height="100"/> | <img src="https://camo.githubusercontent.com/c5b95fc653e7928d7277fa065cd098187cb9b7ea2d4d976cef5215a0676d2424/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f616e67756c61722d6d6174657269616c2d657874656e73696f6e732f7061676573406d61737465722f6173736574732f616e67756c61722d6d6174657269616c2d657874656e73696f6e732d6c6f676f2e706e67" alt="drawing" width="150" height="130"/> |
+<img src="https://styleguide.joblocal.de/assets/img/bootstrap-stack.png" alt="drawing" width="150" height="150"/>  | <img src="https://i0.wp.com/www.place4geek.com/blog/wp-content/uploads/2010/10/jQurery-e1423237413165.gif?fit=600%2C600&ssl=1" alt="drawing" width="150" height="150"/> | <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--KZJkgfSd--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hrbrzywuqz6r5aayszap.png" alt="drawing" width="300" height="150"/> | <img src="https://uploads.sitepoint.com/wp-content/uploads/2016/11/1478106324karma-and-jasmine.png" alt="drawing" width="150" height="150"/> | <img src="https://www.docker.com/sites/default/files/social/docker_facebook_share.png" alt="drawing" width="200" height="200"/>| <img src="https://d3r49iyjzglexf.cloudfront.net/circleci-logo-stacked-fb-657e221fda1646a7e652c09c9fbfb2b0feb5d710089bb4d8e8c759d37a832694.png" alt="drawing" width="200" height="200"/>
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

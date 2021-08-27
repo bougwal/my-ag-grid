@@ -1,8 +1,8 @@
 import { HttpClientTestingModule } from '@angular/common/http/testing'
 import { Self } from '@angular/core'
 import { ComponentFixture, TestBed } from '@angular/core/testing'
-import { CustomDatePipe } from 'src/app/pipes/custom-date.pipe'
-import { HttpService } from 'src/app/services/http.service'
+import { CustomDatePipe } from '../../shared/pipes/custom-date.pipe'
+import { HttpService } from '../../shared/services/http/http.service'
 
 import { ImageCellComponent } from '../image-cell/image-cell.component'
 import { MainViewComponent } from './main-view.component'
